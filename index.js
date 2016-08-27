@@ -22,7 +22,7 @@ var TravisFoldReporter = function(baseReporterDecorator, config) {
   this.onBrowserComplete = function() {};
   this.onBrowserError = function() {};
   this.onBrowserLog = function() {};
-  this.onExit = function() {};
+  this.onExit = function(done) {done();};
 
   this.onRunComplete = function(browsers) {
     if(process.env.TRAVIS === "true")
