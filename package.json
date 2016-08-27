@@ -1,11 +1,15 @@
 {
   "name": "karma-travis-fold-reporter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Inserts travis fold messages when tests start and finish",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "karma-reporter",
+    "karma-plugin"
+  ],
   "author": "Firtina `toxicFork` Ozbalikci (http://toxicfork.com/)",
   "license": "MIT",
   "dependencies": {
