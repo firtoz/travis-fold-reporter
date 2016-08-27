@@ -1,0 +1,14 @@
+{
+  "name": "karma-travis-fold-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Firtina `toxicFork` Ozbalikci (http://toxicfork.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "travis-fold": "0.1.2"
+  }
+}
